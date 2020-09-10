@@ -1,0 +1,20 @@
+body {
+    background: skyblue
+}
+
+.box {
+    padding: 20px;
+    background: white;
+    margin-top: 81px;
+    margin-left: 90px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+    align-content: center;
+}
+
+.navbar {
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 20px;
+    background: slateblue;
+}
