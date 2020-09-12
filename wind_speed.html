@@ -14,6 +14,7 @@
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            
             <!--Navbar content-->
             <a class="navbar-brand" href="homepage.html">Homepage</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,7 +32,7 @@
                           <a class="dropdown-item" href="max_temp.html">vs. Max Temperature</a>
                           <a class="dropdown-item" href="humidity.html">vs. Humidity</a>
                           <a class="dropdown-item" href="cloudiness.html">vs. Cloudiness</a>
-                          <a class="dropdown-item" href="windspeed.html">vs. Wind Speed</a>
+                          <a class="dropdown-item" href="wind_speed.html">vs. Wind Speed</a>
                       </div>
                   </li>
 
@@ -39,11 +40,49 @@
                       <a class="nav-link" herf="comparisions.html" tabindex="-1">Comparisions</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="data.html" tabindex="-1"></a>
+                      <a class="nav-link" href="data.html" tabindex="-1">Data</a>
                   </li>
                 </ul>
         </nav>
-
+     <!--Main homepage layout-->
+     <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                    <h1>Latitude vs. Wind Speed</h1>
+                    <hr>
+                    <div id="summ_text">
+                        <img id="WindSpeedPic" src="Resources/assets/Wind_Speed.png" alt="Latitude vs. Wind Speed" height="280" width="300">
+                        <p>There is no evidence to support that the latitude of a city from the data that was pulled has an effect on the wind speed. What we can conclude
+                            however is that the majority of cities pulled have a wind speed between 0-10mph.
+                        </p> 
+                        
+                        <p>What would be a better comparision would be to grab data from the cities selected over the course of a year to make a better conclusion.
+                            Trying to make a conclusion based off the data provided alone is not possible.
+                        </p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                    <h2>Visualizations</h2>
+                    <hr>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="max_temp.html"><img class="img img-responsive" src="Resources/assets/Max_temp.png" style="width:100%" alt="temp"></a></div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="cloudiness.html"><img class="img img-responsive" src="Resources/assets/Cloudiness.png" style="width:100%" alt="cloudiness"></a></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="humidity.html"><img class="img img-responsive" src="Resources/assets/Humidity.png" style="width:100%" alt="humidity"></a></div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="wind_speed.html"><img class="img img-responsive" src="Resources/assets/Wind_Speed.png" style="width:100%" alt="windspeed"></a></div>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </div>
+        
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
